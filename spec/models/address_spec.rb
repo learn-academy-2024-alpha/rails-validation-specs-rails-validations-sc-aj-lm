@@ -46,4 +46,5 @@ RSpec.describe Address, type: :model do
       )
       expect(Little.errors[:zip]).to_not be_empty
   end
+  
 end
